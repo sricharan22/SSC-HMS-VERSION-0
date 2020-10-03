@@ -204,3 +204,40 @@ header{
     font-size: 25px;
     list-style-type:circle;
 }
+main{
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    left: 55%;
+    top: 70%;
+}
+section h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+}
+span::after { 
+    content: "REVENUE"; 
+    animation: animate infinite 5s; 
+    padding-left: 10px; 
+    color: turquoise;
+} 
+
+@keyframes animate { 
+
+    0% { 
+        content: "REVENUE"; 
+    } 
+
+    25% {
+        content: "GUEST EXPERIENCE";
+    }
+
+    50% { 
+        content: "ONLINE ROOM SALES"; 
+    } 
+
+    75% { 
+        content: "TECHNOLOGY"; 
+    } 
+} 
